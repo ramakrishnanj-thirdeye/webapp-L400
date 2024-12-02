@@ -1,7 +1,7 @@
 import React from "react";
-import powerauto from '../assets/Customization Video.mp4' // Assuming you have a separate CSS file for styles
+import powerauto from '../assets/4. Customization-App & Data.mp4' // Assuming you have a separate CSS file for styles
 
-function CopilotInPowerAutomate() {
+function VCustomizationsAppsData() {
   return (
    
       <div id="content-wrapper" className="d-flex flex-column">
@@ -22,5 +22,5 @@ function CopilotInPowerAutomate() {
   );
 }
 
-export default CopilotInPowerAutomate;
+export default VCustomizationsAppsData;
 
