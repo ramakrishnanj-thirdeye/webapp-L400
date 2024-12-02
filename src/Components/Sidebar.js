@@ -185,7 +185,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                ALM Processes Diagram
+                ALM Workflow Diagram
               </li>
               <li
                 className={`submenu-item ${activeScreen === "cbc-alm-processes-enterprise-apps" ? "active" : ""
@@ -195,7 +195,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-               Click-by-Click ALM Processes
+               Click-by-Click of ALM
               </li>
               <li
                 className={`submenu-item ${activeScreen === "v-alm-processes-enterprise-apps" ? "active" : ""
@@ -205,7 +205,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                ALM Processes Video
+                ALM Video
               </li>
            
             </ul>
