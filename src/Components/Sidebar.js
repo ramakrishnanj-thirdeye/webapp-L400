@@ -116,7 +116,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Data Pooling Through Dataflows
+                Data Integration via Dataflows
               </li>
               <li
                 className={`submenu-item ${activeScreen === "cbc-data-pooling-through-automate" ? "active" : ""
@@ -126,7 +126,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Data Pooling Through Automate Flows
+                HR Workflows via Automate Flows
               </li>
               <li
                 className={`submenu-item ${activeScreen === "v-data-flows-and-power-automate" ? "active" : ""
@@ -185,7 +185,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                ALM Processes Diagram
+                ALM Workflow Diagram
               </li>
               <li
                 className={`submenu-item ${activeScreen === "cbc-alm-processes-enterprise-apps" ? "active" : ""
@@ -195,7 +195,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-               Click-by-Click ALM Processes
+               Click-by-Click of ALM
               </li>
               <li
                 className={`submenu-item ${activeScreen === "v-alm-processes-enterprise-apps" ? "active" : ""
@@ -205,7 +205,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                ALM Processes Video
+                ALM Video
               </li>
            
             </ul>
@@ -311,7 +311,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Cancelled Checks Verification For Pro Devs
+                Verification of Cancelled Checks
               </li>
               <li
                 className={`submenu-item ${activeScreen === "v-cancelled-checks-verification-for-pro-devs" ? "active" : ""
@@ -341,7 +341,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Sentiment Analysis For Performance Scoring
+                Performance Scoring Through Sentiment Analysis
               </li><li
                 className={`submenu-item ${activeScreen === "v-sentiment-analysis-for-performance-scoring" ? "active" : ""
                   }`}
@@ -350,7 +350,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Sentiment Analysis Video
+                Performance Scoring Video
               </li>
     
             </ul>
