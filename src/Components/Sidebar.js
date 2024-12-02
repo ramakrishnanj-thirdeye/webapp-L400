@@ -331,7 +331,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Hr Performance Insights
+                HR Performance Insights
               </li>
               <li
                 className={`submenu-item ${activeScreen === "cbc-sentiment-analysis-for-performance-scoring" ? "active" : ""
