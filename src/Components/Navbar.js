@@ -33,7 +33,7 @@ function Navbar({ toggleSidebar }) {
                             className="mr-2 d-none d-lg-inline text-gray-600 small"
                             style={{ marginRight: '15px' }} // Added spacing
                         >
-                            April
+                            Imtiyaz
                         </span>
 
                         {/* Profile Image */}
