@@ -116,7 +116,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Data Pooling Through Dataflows
+                Data Integration via Dataflows
               </li>
               <li
                 className={`submenu-item ${activeScreen === "cbc-data-pooling-through-automate" ? "active" : ""
@@ -126,7 +126,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Data Pooling Through Automate Flows
+                HR Workflows via Automate Flows
               </li>
               <li
                 className={`submenu-item ${activeScreen === "v-data-flows-and-power-automate" ? "active" : ""
