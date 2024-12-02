@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/boulder innovation logo.png';
-import profile from '../assets/April_img.jpg';
+import profile from '../assets/Imitiyaz_Enterprise.png';
 import './CustomSidebar.css'; // Import the sidebar styles
 
 function Navbar({ toggleSidebar }) {

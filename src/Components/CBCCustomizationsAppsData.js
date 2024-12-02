@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function DataSecurityPrivacy() {
+function CBCCustomizationsAppsData() {
   const [isLoading, setIsLoading] = useState(true);
 
   const handleIframeLoad = () => {
@@ -50,4 +50,4 @@ function DataSecurityPrivacy() {
   );
 }
 
-export default DataSecurityPrivacy;
+export default CBCCustomizationsAppsData;

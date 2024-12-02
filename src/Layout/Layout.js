@@ -63,13 +63,16 @@ const screens = [
 ];
 
 function Layout() {
-    const [screen, setScreen] = useState('dashboard');
-    const [step, setStep] = useState(0);
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-    const [history, setHistory] = useState([]); // Track navigation history
-    const [isBackHovered, setIsBackHovered] = useState(false); // Hover state for Back Button
-    const [isPlayHovered, setIsPlayHovered] = useState(false); // Hover state for Play Button
+    // State variables
+    const [screen, setScreen] = useState('dashboard'); // Default screen
+    const [step, setStep] = useState(0); // Step tracker
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar toggle
+    const [history, setHistory] = useState([]); // Navigation history
+    const [isBackHovered, setIsBackHovered] = useState(false); // Back button hover state
+    const [isPlayHovered, setIsPlayHovered] = useState(false); // Play button hover state
 
+
+    // Effect to update step when screen changes
     useEffect(() => {
         const currentStep = screens.indexOf(screen);
         if (currentStep !== -1) {
@@ -77,23 +80,26 @@ function Layout() {
         }
     }, [screen]);
 
+    // Navigate to the next screen
     const handlePlayButtonClick = () => {
-        const nextStep = (step + 1) % screens.length; // Use 'screens' directly
-        setHistory([...history, screen]); // Add current screen to history
-        setScreen(screens[nextStep]); // Use 'screens' directly
+        const nextStep = (step + 1) % screens.length;
+        setHistory([...history, screen]);
+        setScreen(screens[nextStep]);
     };
 
+    // Handle sidebar menu clicks
     const handleSidebarMenuClick = (newScreen) => {
         if (newScreen !== screen) {
-            setHistory([...history, screen]); // Add current screen to history
+            setHistory([...history, screen]);
             setScreen(newScreen);
         }
     };
 
-    const handleBackButtonClick = () => {
+     // Navigate back to the previous screen
+     const handleBackButtonClick = () => {
         if (history.length > 0) {
             const previousScreen = history[history.length - 1];
-            setHistory(history.slice(0, -1)); // Remove the last screen from history
+            setHistory(history.slice(0, -1));
             setScreen(previousScreen);
         }
     };
@@ -156,24 +162,27 @@ function Layout() {
         }
     };
 
+    // Toggle the sidebar visibility
     const toggleSidebar = () => {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
+
     return (
         <div>
+            {/* Navbar */}
             <Navbar toggleSidebar={toggleSidebar} />
+
             <div className="layout-container">
                 {/* Sidebar */}
-                <div>
-                    <CustomSidebar
-                        setScreen={handleSidebarMenuClick}
-                        isSidebarOpen={isSidebarOpen}
-                        toggleSidebar={toggleSidebar}
-                    />
-                </div>
+                <CustomSidebar
+                    setScreen={handleSidebarMenuClick}
+                    isSidebarOpen={isSidebarOpen}
+                    toggleSidebar={toggleSidebar}
+                    activeScreen={screen}
+                />
 
-                {/* Main content area */}
+                {/* Main Content Area */}
                 <div className="main-content" style={{ position: 'relative' }}>
                     {renderScreen()}
 
@@ -194,7 +203,7 @@ function Layout() {
                             justifyContent: 'center',
                             alignItems: 'center',
                             padding: '0',
-                            backgroundColor: isBackHovered ? 'blue' : '', // Only blue when back button is hovered
+                            backgroundColor: isBackHovered ? 'blue' : '',
                             color: isBackHovered ? 'white' : '',
                             transition: 'background-color 0.3s ease',
                         }}
@@ -216,7 +225,7 @@ function Layout() {
                             width: '30px',
                             height: '30px',
                             transition: 'background-color 0.3s ease',
-                            backgroundColor: isPlayHovered ? 'blue' : '', // Only blue when play button is hovered
+                            backgroundColor: isPlayHovered ? 'blue' : '',
                             color: isPlayHovered ? 'white' : '',
                         }}
                     >

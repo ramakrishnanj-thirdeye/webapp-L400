@@ -3,12 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import loginimg from "../assets/login_image.svg";
 
 const Login = () => {
-    const [username, setUsername] = useState("april@boulderinnovations.com");
+    const [username, setUsername] = useState("imtiyaz@boulderinnovations.com");
     const [password, setPassword] = useState("password");
     const [error, setError] = useState(false);
 
     const handleLogin = () => {
-        if (username === "april@boulderinnovations.com" && password === "password") {
+        if (username === "imtiyaz@boulderinnovations.com" && password === "password") {
             sessionStorage.setItem("login", "true");
             setError(false);
             window.location.reload(); // Navigate to the home page

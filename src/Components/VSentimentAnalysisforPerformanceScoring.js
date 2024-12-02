@@ -1,7 +1,7 @@
 import React from "react";
-import powerauto from '../assets/Sentiment Analysis - L400 Demo - Power Platform.mp4' // Assuming you have a separate CSS file for styles
+import powerauto from '../assets/7. Sentiment Analysis - L400 Demo - Power Platform.mp4' // Assuming you have a separate CSS file for styles
 
-function CopilotInPowerAutomate() {
+function VSentimentAnalysisforPerformanceScoring() {
   return (
    
       <div id="content-wrapper" className="d-flex flex-column">
@@ -22,5 +22,5 @@ function CopilotInPowerAutomate() {
   );
 }
 
-export default CopilotInPowerAutomate;
+export default VSentimentAnalysisforPerformanceScoring;
 

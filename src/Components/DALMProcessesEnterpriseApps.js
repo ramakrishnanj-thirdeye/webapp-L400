@@ -1,7 +1,7 @@
 import React from 'react'
 import dashboardimg from '../assets/Application Lifecycle Management.png'
 
-function Home() {
+function DALMProcessesEnterpriseApps() {
   return (
     <div id="content-wrapper" className="d-flex flex-column">
       {/* Main Content */}
@@ -20,4 +20,4 @@ function Home() {
   );
 }
 
-export default Home
+export default DALMProcessesEnterpriseApps

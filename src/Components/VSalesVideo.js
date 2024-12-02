@@ -1,7 +1,7 @@
 import React from "react";
-import powerauto from '../assets/Sales Video - L400 - Power Platform.mp4' // Assuming you have a separate CSS file for styles
+import powerauto from '../assets/8. Sales Video - L400 - Power Platform.mp4' // Assuming you have a separate CSS file for styles
 
-function CopilotInPowerAutomate() {
+function VSalesVideo() {
   return (
    
       <div id="content-wrapper" className="d-flex flex-column">
@@ -22,5 +22,5 @@ function CopilotInPowerAutomate() {
   );
 }
 
-export default CopilotInPowerAutomate;
+export default VSalesVideo;
 
