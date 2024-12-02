@@ -311,7 +311,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Cancelled Checks Verification For Pro Devs
+                Verification of Cancelled Checks
               </li>
               <li
                 className={`submenu-item ${activeScreen === "v-cancelled-checks-verification-for-pro-devs" ? "active" : ""
@@ -341,7 +341,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Sentiment Analysis For Performance Scoring
+                Performance Scoring Through Sentiment Analysis
               </li><li
                 className={`submenu-item ${activeScreen === "v-sentiment-analysis-for-performance-scoring" ? "active" : ""
                   }`}
@@ -350,7 +350,7 @@ function CustomSidebar({ isSidebarOpen, setScreen, toggleSidebar, activeScreen }
                   toggleSidebar();
                 }}
               >
-                Sentiment Analysis Video
+                Performance Scoring Video
               </li>
     
             </ul>
