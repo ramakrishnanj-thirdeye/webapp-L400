@@ -1,26 +1,22 @@
 import React from "react";
-import powerauto from '../assets/8. Sales Video - L400 - Power Platform.mp4' // Assuming you have a separate CSS file for styles
 
 function VSalesVideo() {
   return (
-   
-      <div id="content-wrapper" className="d-flex flex-column">
-        {/* Main Content */}
-        <div id="content">
-          <div className="video-container">
-            <video autoPlay muted controls>
-              <source
-                src={powerauto}
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+    <div id="content-wrapper" className="d-flex flex-column">
+      {/* Main Content */}
+      <div id="content">
+        <div className="video-container">
+          <video autoPlay muted controls>
+            <source
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/8.%20Sales%20Video%20-%20L400%20-%20Power%20Platform.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
-    
+    </div>
   );
 }
 
 export default VSalesVideo;
-
