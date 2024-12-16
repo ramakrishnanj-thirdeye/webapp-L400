@@ -8,7 +8,7 @@ function VCancelledChecksVerificationforProDevs() {
         <div className="video-container">
           <video autoPlay muted controls>
             <source
-              src="https://stdemoassets.blob.core.windows.net/videos/L400/6.%20AI%20builder%20Cancelled%20Cheque%20processing.mp4"
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/6.%20AI%20Builder-%20Cancelled%20Check%20processing.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
