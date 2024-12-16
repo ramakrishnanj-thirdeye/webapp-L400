@@ -8,7 +8,7 @@ function VCustomizationsAppsData() {
         <div className="video-container">
           <video autoPlay muted controls>
             <source
-              src="https://stdemoassets.blob.core.windows.net/videos/L400/4.%20Customization-App%20&%20Data.mp4"
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/4.%20Customization%20App%20+%20Data%20video.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
