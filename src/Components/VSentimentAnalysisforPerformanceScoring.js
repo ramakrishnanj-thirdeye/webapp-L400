@@ -8,7 +8,7 @@ function VSentimentAnalysisforPerformanceScoring() {
         <div className="video-container">
           <video autoPlay muted controls>
             <source
-              src="https://stdemoassets.blob.core.windows.net/videos/L400/7.%20Sentiment%20Analysis%20-%20L400%20Demo%20-%20Power%20Platform.mp4"
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/7.%20AI%20prompt%20sentiment%20analysis%20and%20performance%20scoring.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.

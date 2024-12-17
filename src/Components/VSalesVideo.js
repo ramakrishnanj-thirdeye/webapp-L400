@@ -8,7 +8,7 @@ function VSalesVideo() {
         <div className="video-container">
           <video autoPlay muted controls>
             <source
-              src="https://stdemoassets.blob.core.windows.net/videos/L400/8.%20Sales%20Video%20-%20L400%20-%20Power%20Platform.mp4"
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/8.%20Sales%20video.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.

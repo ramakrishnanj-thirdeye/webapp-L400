@@ -8,7 +8,7 @@ function VDataFlowsAndPowerAutomate() {
         <div className="video-container">
           <video autoPlay muted controls>
             <source
-              src="https://stdemoassets.blob.core.windows.net/videos/L400/1.%20Dataflows%20and%20power%20automate.mp4"
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/1.%20Dataflows%20and%20Power%20Automate.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.

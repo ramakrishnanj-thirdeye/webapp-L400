@@ -8,7 +8,7 @@ function VLOBmodernizationApp() {
         <div className="video-container">
           <video autoPlay muted controls>
             <source
-              src="https://stdemoassets.blob.core.windows.net/videos/L400/2.%20LOB%20app%20modernization.mp4"
+              src="https://stdemoassets.blob.core.windows.net/videos/L400/2.%20LOB%20App%20modernization.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
